@@ -11,9 +11,7 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 I'm OTT Search Bot I can share Movies and Series 😁.</b>
-
-<i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
+    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 I'm OTT Search Bot I can share Movies and Series 😁.</b>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/OTT_Movies_Search_Bot><b>OTT Search Bot</b></a>\n
@@ -50,7 +48,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/GreyMatter_Owner)</code>
+<code>[Button Text](buttonurl:https://t.me/FF_Bots)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
