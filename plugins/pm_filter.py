@@ -424,9 +424,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('📱 Share With Friends', url='https://t.me/share/url?url=Join%20%40FFMoviesBot%20For%20Download%20New%20Movies')
         ], [
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/@GreyMattersYT'),
+            InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁', url='switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/FF_OTT_Updates3')
         ], [
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
